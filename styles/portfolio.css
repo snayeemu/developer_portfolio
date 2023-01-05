@@ -226,7 +226,8 @@ main {
 footer {
     text-align: left;
 }
-.sectionTitle3{
+
+.sectionTitle3 {
     margin-bottom: 130px;
     text-align: center;
 }
@@ -266,8 +267,9 @@ textarea {
 }
 
 .footerTitleContainer input {
-    width: 461px;
-    height: 64px;
+    width: 404 px;
+    height: 17px;
+    padding: 18px 30px;
 }
 
 .footerTitleContainer textarea {
