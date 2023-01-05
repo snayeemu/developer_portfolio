@@ -165,13 +165,15 @@ main {
 /* summary */
 .resumeContent {
     display: flex;
-    
+
 }
-.sectionTitle{
+
+.sectionTitle {
     margin-bottom: 113px;
 
 }
-.resumeSubContent{
+
+.resumeSubContent {
     border-bottom: 1px solid #D1D1D1;
     margin: 0 24px 30px 0;
 }
@@ -203,8 +205,59 @@ main {
     font-size: 16px;
     margin-bottom: 30px;
 }
-.resumeButton{
+
+.resumeButton {
     margin-top: 50;
     text-align: center;
     margin-bottom: 113px;
+}
+
+/* footer contact me */
+
+footer {
+    text-align: left;
+}
+
+.contactInfo {
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+
+.footerTitle {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footerDescription {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.images {
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+    gap: 24px;
+}
+
+.footerTitleContainer input,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+}
+
+.footerTitleContainer input {
+    width: 461px;
+    height: 64px;
+}
+
+.footerTitleContainer textarea {
+    width: 461px;
+    height: 180px;
 }
