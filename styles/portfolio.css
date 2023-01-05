@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.text_primary {
+    color: #FD6E0A;
+}
+
+.btn_primary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    /* width: 121px;
+    height: 61px; */
+}
+
+.nav_title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+/* banner styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.bannerSubtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.bannerTitle {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.bannerDescription {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.sectionTitle {
+
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.sectionDescription {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* information about me */
+.aboutMeInformation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subInformation {
+    margin-right: 50px;
+}
+
+.informationTitle {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.information {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
