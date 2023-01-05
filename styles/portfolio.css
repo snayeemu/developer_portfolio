@@ -25,6 +25,14 @@
     padding: 18px 35px;
 }
 
+.mainImage {
+    background: url(1699492_P3OLGJ1.png);
+    width: 584px;
+    height: 676px;
+    display: flex;
+    text-align: right;
+}
+
 /* header and navigation styles */
 nav {
     display: flex;
@@ -168,8 +176,9 @@ main {
 
 }
 
-.sectionTitle {
-    margin-bottom: 113px;
+.sectionTitle2 {
+    margin-bottom: 30px;
+    text-align: center;
 
 }
 
@@ -216,6 +225,10 @@ main {
 
 footer {
     text-align: left;
+}
+.sectionTitle3{
+    margin-bottom: 130px;
+    text-align: center;
 }
 
 .contactInfo {
